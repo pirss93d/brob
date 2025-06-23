@@ -435,3 +435,13 @@ template {
 #main_btn:hover{
     opacity: 0.5;
 }
+
+
+/*ORDER ORDER ORDER block*/
+.order{
+    color:#ffffff;
+    margin: 0 auto;
+    width: 420px;
+    height: 918px;
+    background-color: #373535;
+}
