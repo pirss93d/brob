@@ -446,16 +446,13 @@ template {
 
 
 /*ORDER ORDER ORDER block*/
-.order_header{
-  display: flex;
-  justify-content: space-between;
-  width: 420px;
-  height: 60px;
-}
+
 
 .order{
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
+
   font-family: "Russo_One";
     color:#ffffff;
     margin: 0 auto;
@@ -463,16 +460,26 @@ template {
     height: 918px;
     background-color: #373535;
 }
+
+
+.order_header{
+  display: flex;
+  justify-content: space-between;
+  width: 420px;
+  height: 56.5px;
+}
 .order_profile{
 
-  max-width: 210px;
- height: 60px;
+max-width: 210px;
+ height: 56.5px;
 }
 .order_lk-profile{
-  margin-top: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 24px;
-  text-align: center;
   width: 210px;
+  height: 56.5px;
   border: 1px solid #ffffff;
   border-top: none;
   border-left: none;
@@ -481,8 +488,8 @@ template {
 
 /*BTN */
 .order_exit{
-  margin-top: 20px;
-  margin-right: 30px;
+  margin-top: 20px; 
+   margin-right: 30px; 
   width: 50px;
   height: 40px;
 
@@ -500,9 +507,8 @@ template {
 .cl-btn-6-txt { 
     font-size: 10px; 
     line-height: 40px;
-
     text-transform: uppercase;
-    color: #337AB7;
+    color: #f0f3f5;
     transition: all .3s ease-in;
     opacity: 0;
     cursor: pointer;
@@ -541,4 +547,12 @@ template {
 .btn_exit{
   text-decoration: none;
   color: #ffffff;
+}
+
+.order_forms{
+margin-top: 226px;
+width: 339px;
+height: 250px;
+background-color: rgb(71, 71, 64);
+opacity: 0.5;
 }
