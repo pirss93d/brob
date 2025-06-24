@@ -946,7 +946,8 @@ template {
     background-color: yellow;
 }
 .main_button{
-    margin-top: 58px;
+  
+    /* margin-top: 58px; */
     width: 420px;
     color: #F9F2F2;
     font-family: 'Russo_one';
@@ -1022,9 +1023,8 @@ template {
     background-color: #373535;
 }
 .order_profile{
-
-  max-width: 210px;
- height: 60px;
+max-width: 210px;
+height: 60px;
 }
 .order_lk-profile{
   margin-top: 52px;
