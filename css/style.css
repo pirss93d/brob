@@ -356,7 +356,7 @@ template {
 /*Шрифты старт*/
 @font-face {
     font-family: "Russo_one";
-    src: url("/fond/RussoOne-Regular.ttf");
+    src: url("../fond/RussoOne-Regular.ttf");
 }
 
 /*Шрифты конец*/
@@ -453,13 +453,6 @@ template {
   height: 60px;
 }
 
-
-
-
-
-
-
-
 .order{
   display: flex;
   flex-wrap: wrap;
@@ -476,7 +469,7 @@ template {
  height: 60px;
 }
 .order_lk-profile{
-  margin-top: 29px;
+  margin-top: 52px;
   font-size: 24px;
   text-align: center;
   width: 210px;
